@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { signIn } from "../redux/actions/userActions";
 import { useNavigate } from "react-router-dom";
@@ -123,7 +123,7 @@ const SignIn = () => {
           minHeight: "100vh",
           width: "100%",
           backgroundImage: `url(${LoginBackgroundImage})`,
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           fontFamily: "Poppins, Arial, sans-serif",
@@ -132,13 +132,14 @@ const SignIn = () => {
         <Box
           sx={{
             width: "100%",
-            maxWidth: 400,
+            maxWidth: 470,
+            height: 550,
             p: 4,
             bgcolor: "white",
             borderRadius: 2,
             boxShadow: 3,
             position: "relative",
-            left: "-20%",
+            left: "-13%",
           }}
         >
           <Box sx={{ display: "flex", justifyContent: "center", mb: 2 }}>

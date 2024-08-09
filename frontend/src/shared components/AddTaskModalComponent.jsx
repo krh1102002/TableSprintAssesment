@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm, Controller } from "react-hook-form";
-import Modal from "./ModalComponent";
+import Modal from "../components/ModalComponent";
 import { useDispatch } from "react-redux";
 import { addTask } from "../redux/actions/taskActions";
 import { toast } from "react-toastify";

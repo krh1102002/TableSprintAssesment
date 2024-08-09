@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import Modal from "./ModalComponent";
+import Modal from "../components/ModalComponent";
 
 const ViewTaskModal = ({ isOpen, onClose }) => {
   const task = useSelector((state) => state.task.currentTask);

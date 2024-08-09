@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import { updateTask } from "../redux/actions/taskActions";
-import Modal from "./ModalComponent";
+import Modal from "../components/ModalComponent";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { useForm } from "react-hook-form";

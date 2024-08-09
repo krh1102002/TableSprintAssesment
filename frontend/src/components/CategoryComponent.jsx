@@ -1,10 +1,10 @@
 import { useState } from "react";
-import TaskHeader from "../components/TaskHeaderComponent";
-import TaskTable from "../components/TaskTableComponent";
-import AddTaskModal from "../components/AddTaskModalComponent";
-import EditTaskModal from "../components/EditTaskModalComponent";
+import TaskHeader from "../shared components/TaskHeaderComponent";
+import TaskTable from "../shared components/TaskTableComponent";
+import AddTaskModal from "../shared components/AddTaskModalComponent";
+import EditTaskModal from "../shared components/EditTaskModalComponent";
 import AlertModal from "../components/AlertModalComponent";
-import ViewTaskModal from "../components/ViewTaskModalComponent";
+import ViewTaskModal from "../shared components/ViewTaskModalComponent";
 
 const CategoryComponent = () => {
   const [addTaskModalOpen, setAddTaskModalOpen] = useState(false);

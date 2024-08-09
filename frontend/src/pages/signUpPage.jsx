@@ -83,7 +83,7 @@ const SignUp = () => {
           minHeight: "100vh",
           width: "100%",
           backgroundImage: `url(${LoginBackgroundImage})`,
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           fontFamily: "Poppins, Arial, sans-serif",
@@ -92,13 +92,14 @@ const SignUp = () => {
         <Box
           sx={{
             width: "100%",
-            maxWidth: 400,
+            maxWidth: 470,
+            height: 550,
             p: 4,
             bgcolor: "white",
             borderRadius: 2,
             boxShadow: 3,
             position: "relative",
-            left: "-20%",
+            left: "-13%",
           }}
         >
           <Box sx={{ display: "flex", justifyContent: "center", mb: 2 }}>
